@@ -11,6 +11,7 @@ driver = webdriver.Chrome(executable_path="D:\\Driver\\chromedriver.exe")
 driver.get("http://www.practiceselenium.com/practice-form.html")
 # driver.maximize_window()
 # driver.implicitly_wait(5)
+#new comment of pankaj
 
 # Dropdown
 continent_dropdown = Select(driver.find_element_by_id("continents"))
